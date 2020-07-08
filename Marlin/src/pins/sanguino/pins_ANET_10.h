@@ -90,7 +90,7 @@
  */
 
 #ifndef __AVR_ATmega1284P__
-  #error "Oops! Select 'Sanguino' in 'Tools > Board' and 'ATmega1284P' in 'Tools > Processor.' (For PlatformIO, use 'melzi' or 'melzi_optiboot.')"
+  #error "Oops! Select 'Sanguino' in 'Tools > Board' and 'ATmega1284P' in 'Tools > Processor.' (For PlatformIO, use 'melzi' or 'melziob.')"
 #endif
 
 #define BOARD_INFO_NAME "Anet 1.0"

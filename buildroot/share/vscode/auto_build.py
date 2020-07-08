@@ -562,7 +562,7 @@ def get_env(board_name, ver_Marlin):
       board_name, " Which flavor of Melzi? ", "Melzi (Optiboot bootloader)", "Melzi                                      "
     )
     if 1 == get_answer_val:
-      target_env = 'melzi_optiboot'
+      target_env = 'melziob'
     else:
       target_env = 'melzi'
   else:
