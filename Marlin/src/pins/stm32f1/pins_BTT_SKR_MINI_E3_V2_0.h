@@ -45,6 +45,25 @@
 
 #define FAN1_PIN                           PC7
 
+//
+// Swapping X and Z steppers due to wire length
+//
+#undef X_ENABLE_PIN
+#undef X_STEP_PIN
+#undef X_DIR_PIN
+
+#undef Z_ENABLE_PIN
+#undef Z_STEP_PIN
+#undef Z_DIR_PIN
+
+#define X_ENABLE_PIN                        PB1
+#define X_STEP_PIN                          PB0
+#define X_DIR_PIN                           PC5
+
+#define Z_ENABLE_PIN                        PB14
+#define Z_STEP_PIN                          PB13
+#define Z_DIR_PIN                           PB12
+
 #ifndef CONTROLLER_FAN_PIN
   #define CONTROLLER_FAN_PIN               FAN1_PIN
 #endif
